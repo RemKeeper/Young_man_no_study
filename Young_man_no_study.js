@@ -8,7 +8,6 @@
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // @run-at document-idle
-// @require      http://html2canvas.hertzen.com/dist/html2canvas.js
 // ==/UserScript==
 
 document.getElementsByClassName('section3')[0].className = "section3 topindex2"
