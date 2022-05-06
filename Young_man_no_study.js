@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         南昌青年大学习跳过
-// @namespace    http://tampermonkey.net/
+// @namespace    http://tampermonkey.net/https://github.com/RemKeeper/Young_man_no_study/blob/main/Young_man_no_study.js
 // @version      0.2
 // @description  跳过视频
 // @author       Remkeeper
@@ -21,7 +21,7 @@ down.style.fontSize="25px";
 down.style.width="448px"
 down.style.height="700px"
 down.style.position="absolute"
-down.href="https://h5.cyol.com/special/daxuexi/ct3fd2g8mp/images/end.jpg";
+down.href=pic_url;
 down.download="end.jpg";
 document.getElementsByClassName('section3')[0].appendChild(down)
 document.getElementsByClassName('section3')[0].style.background="url(https://s1.328888.xyz/2022/04/18/rgNqy.png)";
